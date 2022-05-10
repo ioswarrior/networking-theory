@@ -7,7 +7,7 @@
 
 С помощью API **URLSession** приложение может создавать множество различных сессий каждая из которых координирует определенные задачи для передачи данных, каждая сессия содержит экземпляр класса **URLSessionConfiguration**, который позволяет сконфигурировать параметры сессии. 
 
-<img width="1157" alt="image" src="https://user-images.githubusercontent.com/55939234/167617238-e9e6b896-986e-43b0-985f-82a33e9dde7a.png">
+<img width="600" alt="image" src="https://user-images.githubusercontent.com/55939234/167617238-e9e6b896-986e-43b0-985f-82a33e9dde7a.png">
 
 Для быстрого создания простого запроса без использования данных используйтесь Singleton - (URLSession.shared.configuration)
 
