@@ -18,7 +18,7 @@
 
 Каждый запрос в себе содержит перечень сетевых задач, которые представлены классом **URLSessionTask**. **URLSessionTask** это один из базовых классов стека **URLSession**, который имеет несколько сабклассов: **URLSessionDataTask**, **URLSessionUploadTask** и **URLSessionDownloadTask**.
 
-<img width="1635" alt="image" src="https://user-images.githubusercontent.com/55939234/167622288-f10de5c3-bd96-4edd-95e4-e4f6bf5ff0e4.png">
+<img width="600" alt="image" src="https://user-images.githubusercontent.com/55939234/167622288-f10de5c3-bd96-4edd-95e4-e4f6bf5ff0e4.png">
 
 Экземпляр каждого из перечисленного класса определяет тип задачи, которая всегда является частью сессии и создается путем вызова одного из методов экземпляра класса **URLSession**. 
 
